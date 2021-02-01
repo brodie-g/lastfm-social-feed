@@ -2,7 +2,7 @@ import { default as $ } from 'jquery';
 import { getPathWithoutLanguage } from './language';
 import * as cache from './storage';
 
-const API_KEY = '3fe031d61d7cddb809ce4e5d748cfe8f';
+const API_KEY = '21350e3b1ce07ff776b1a2286670e635';
 const API_URL = 'https://ws.audioscrobbler.com/2.0/';
 
 const PLACEHOLDER_AVATAR = 'https://lastfm.freetls.fastly.net/i/u/avatar170s/818148bf682d429dc215c1705eb27b98.webp';
