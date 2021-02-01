@@ -25,3 +25,7 @@ Pull requests are welcome!
 ## Packaging the extension
 This is mostly for me because I will surely forget how to do it the next I'll want to update the extension.
 Chrome is easy, you just zip the `build/chrome` folder and upload it to the Developer dashboard and that's it. For Firefox, you have to install their CLI tool (`yarn global add web-ext`) and then run `web-ext build` in the `build/chrome` directory. This will generate a zip file inside a newly created folder `web-ext-artifacts`. Then you upload the zip at [Add-on Developer Hub](https://addons.mozilla.org/en-US/developers/). They also require you to upload the source code, so you zip the whole source code and upload that too. Don't forget to append notes about how to build the extension and you're done.
+
+## Credits
+
+Credit to the original extension's (https://github.com/xxdavid/lastfm-friends-who-listen) author which this project is based off of.
