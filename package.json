@@ -1,9 +1,9 @@
 {
-  "author": "David Pavlík",
+  "author": "Brodie Gallinger",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xxdavid/lastfm-friends-who-listen.git"
+    "url": "https://github.com/brodie-g/lastfm-social-feed.git"
   },
   "dependencies": {
     "async": "^2.0.0-rc.6",
