@@ -101,3 +101,18 @@ function fetchPlayCount(data, user, callback, parseCount) {
         });
     }
 }
+
+export function fetchRecentTracks(user, callback) {
+    //     http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=user&api_key=21350e3b1ce07ff776b1a2286670e635&format=json
+    var data = {
+        method: 'user.getrecenttracks',
+        user: user.username,
+        limit: 10
+    };
+
+    $.ajax({
+        data: data
+    }).done(function (responseData) {
+        callback(responseData);
+    });
+}
